@@ -1,0 +1,504 @@
+@import url('https://fonts.googleapis.com/css?family=Suez+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	width: 100%;
+	background-color: #FFF;
+    background: url('background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+::-webkit-scrollbar-button {
+	background-image: url('');
+	background-repeat: no-repeat;
+	width: 5px;
+	height: 0px
+}
+
+::-webkit-scrollbar-track {
+	background-color: #B1B1B1
+}
+
+::-webkit-scrollbar-thumb {
+	-webkit-border-radius: 0px;
+	background-color: #343434;
+}
+
+::-webkit-scrollbar-thumb:hover{
+	background-color: #242424;
+}
+
+::-webkit-resizer{
+	background-image: url('');
+	background-repeat: no-repeat;
+	width: 4px;
+	height: 0px
+}
+
+::-webkit-scrollbar{
+	width: 6px;
+}
+
+header {
+	width: 100%;
+}
+
+header>div#title {
+	width: 100%;
+	position: relative;
+	display: inline-block;
+}
+
+header>div#title>img {
+	width: 100%;
+}
+
+header>div#title>span {
+	position: absolute;
+	top: 25%;
+	left: 5%;
+	font-family: 'Suez One', serif;
+	font-size: 2.5vw;
+	color: #FFF!important;
+	text-shadow: 3px 0 3px #000, 0 3px 3px #000, -3px 0 3px #000, 0 -3px 3px #000;
+}
+
+header>div#title>a#link1 {
+	position: absolute;
+	top: 25%;
+	left: 67%;
+	font-family: 'Roboto', serif;
+	font-size: 1.5vw;
+	text-decoration: none;
+	color: #000;
+	background-color: #D9D9D9;
+	padding: 1%;
+	transition: 0.2s linear;
+}
+
+header>div#title>a#link2 {
+	position: absolute;
+	top: 25%;
+	left: 83%;
+	font-family: 'Roboto', serif;
+	font-size: 1.5vw;
+	text-decoration: none;
+	color: #000;
+	background-color: #D9D9D9;
+	padding: 1%;
+	transition: 0.2s linear;
+}
+
+header>div#title>a#link1:hover {
+	border-radius: 15%;
+	color: #FFF;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+header>div#title>a#link2:hover {
+	border-radius: 15%;
+	color: #FFF;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+main>div#gold {
+	text-align: center;
+	background-color: #32303f;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 10%;
+	padding: 2%;
+	border: 1px solid #FFF;
+	border-radius: 10px;
+}
+
+main>div#gold>span {
+	font-family: 'Suez One', serif;
+	font-size: 2.5vw;
+	color: #FFF;
+}
+
+main>div#gold>img {
+	width: 20%;
+}
+
+main>div#gold>img#gold100 {
+	border: 1px solid #FFF;
+	border-bottom: none;
+	margin-right: 2.5%;
+}
+
+main>div#gold>img#gold500 {
+	border: 1px solid #FFF;
+	border-bottom: none;
+	margin-right: 2.5%;
+}
+
+main>div#gold>img#price100 {
+	border: 1px solid #FFF;
+	border-top: 1px dashed #FFF;
+	margin-right: 2.5%;
+}
+
+main>div#gold>img#price500 {
+	border: 1px solid #FFF;
+	border-top: 1px dashed #FFF;
+	margin-right: 2.5%;
+}
+
+main>div#gold>img#gold1000 {
+	border: 1px solid #FFF;
+	border-bottom: none;
+}
+
+main>div#gold>img#gold3000 {
+	border: 1px solid #FFF;
+	border-bottom: none;
+	margin-left: 2.5%;
+}
+
+main>div#gold>img#price1000 {
+	border: 1px solid #FFF;
+	border-top: 1px dashed #FFF;
+}
+
+main>div#gold>img#price3000 {
+	border: 1px solid #FFF;
+	border-top: 1px dashed #FFF;
+	margin-left: 2.5%;
+}
+
+main>div#j {
+	text-align: center;
+	background-color: #32303f;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 10%;
+	padding: 2%;
+	border: 1px solid #FFF;
+	border-radius: 10px;
+}
+
+main>div#j>span {
+	font-family: 'Suez One', serif;
+	font-size: 2.5vw;
+	color: #FFF;
+}
+
+main>div#j>img {
+	width: 20%;
+}
+
+main>div#j>img#j_anc {
+	border: 1px solid #FFF;
+	border-bottom: none;
+	margin-right: 2.5%;
+}
+
+main>div#j>img#j_flo {
+	border: 1px solid #FFF;
+	border-bottom: none;
+	margin-right: 2.5%;
+}
+
+main>div#j>img#price100 {
+	border: 1px solid #FFF;
+	border-top: 1px dashed #FFF;
+	margin-right: 2.5%;
+}
+
+main>div#j>img#price500 {
+	border: 1px solid #FFF;
+	border-top: 1px dashed #FFF;
+	margin-right: 2.5%;
+}
+
+main>div#j>img#j_rea {
+	border: 1px solid #FFF;
+	border-bottom: none;
+}
+
+main>div#j>img#j_lux {
+	border: 1px solid #FFF;
+	border-bottom: none;
+	margin-left: 2.5%;
+}
+
+main>div#j>img#price1000 {
+	border: 1px solid #FFF;
+	border-top: 1px dashed #FFF;
+}
+
+main>div#j>img#price3000 {
+	border: 1px solid #FFF;
+	border-top: 1px dashed #FFF;
+	margin-left: 2.5%;
+}
+
+main>div#m9 {
+	text-align: center;
+	background-color: #32303f;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 10%;
+	padding: 2%;
+	border: 1px solid #FFF;
+	border-radius: 10px;
+}
+
+main>div#m9>span {
+	font-family: 'Suez One', serif;
+	font-size: 2.5vw;
+	color: #FFF;
+}
+
+main>div#m9>img {
+	width: 20%;
+}
+
+main>div#m9>img#m9_anc {
+	border: 1px solid #FFF;
+	border-bottom: none;
+	margin-right: 2.5%;
+}
+
+main>div#m9>img#m9_dra {
+	border: 1px solid #FFF;
+	border-bottom: none;
+	margin-right: 2.5%;
+}
+
+main>div#m9>img#price100 {
+	border: 1px solid #FFF;
+	border-top: 1px dashed #FFF;
+	margin-right: 2.5%;
+}
+
+main>div#m9>img#price500 {
+	border: 1px solid #FFF;
+	border-top: 1px dashed #FFF;
+	margin-right: 2.5%;
+}
+
+main>div#m9>img#m9_scr {
+	border: 1px solid #FFF;
+	border-bottom: none;
+}
+
+main>div#m9>img#m9_uni {
+	border: 1px solid #FFF;
+	border-bottom: none;
+	margin-left: 2.5%;
+}
+
+main>div#m9>img#price1000 {
+	border: 1px solid #FFF;
+	border-top: 1px dashed #FFF;
+}
+
+main>div#m9>img#price3000 {
+	border: 1px solid #FFF;
+	border-top: 1px dashed #FFF;
+	margin-left: 2.5%;
+}
+
+main>div#k {
+	text-align: center;
+	background-color: #32303f;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 10%;
+	padding: 2%;
+	border: 1px solid #FFF;
+	border-radius: 10px;
+}
+
+main>div#k>span {
+	font-family: 'Suez One', serif;
+	font-size: 2.5vw;
+	color: #FFF;
+}
+
+main>div#k>img {
+	width: 20%;
+}
+
+main>div#k>img#k_cla {
+	border: 1px solid #FFF;
+	border-bottom: none;
+	margin-right: 2.5%;
+}
+
+main>div#k>img#k_dra {
+	border: 1px solid #FFF;
+	border-bottom: none;
+	margin-right: 2.5%;
+}
+
+main>div#k>img#price100 {
+	border: 1px solid #FFF;
+	border-top: 1px dashed #FFF;
+	margin-right: 2.5%;
+}
+
+main>div#k>img#price500 {
+	border: 1px solid #FFF;
+	border-top: 1px dashed #FFF;
+	margin-right: 2.5%;
+}
+
+main>div#k>img#k_scr {
+	border: 1px solid #FFF;
+	border-bottom: none;
+}
+
+main>div#k>img#k_uni {
+	border: 1px solid #FFF;
+	border-bottom: none;
+	margin-left: 2.5%;
+}
+
+main>div#k>img#price1000 {
+	border: 1px solid #FFF;
+	border-top: 1px dashed #FFF;
+}
+
+main>div#k>img#price3000 {
+	border: 1px solid #FFF;
+	border-top: 1px dashed #FFF;
+	margin-left: 2.5%;
+}
+
+main>div#kg {
+	text-align: center;
+	background-color: #32303f;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 10%;
+	padding: 2%;
+	border: 1px solid #FFF;
+	border-radius: 10px;
+}
+
+main>div#kg>img {
+	width: 32%;
+}
+
+main>div#kg>span {
+	font-family: 'Suez One', serif;
+	font-size: 2.5vw;
+	color: #FFF;
+}
+
+main>div#kg>img#k_gol {
+	border: 1px solid #FFF;
+	border-bottom: none;
+}
+
+main>div#kg>img#price500 {
+	border: 1px solid #FFF;
+	border-top: 1px dashed #FFF;
+}
+
+div#pages {
+	text-align: center;
+	background-color: #32303f;
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-top: 10%;
+	padding: 2%;
+	border: 1px solid #FFF;
+	border-radius: 10px;
+}
+
+div#pages>span {
+	font-family: 'Roboto', serif;
+	font-size: 2.5vw;
+	color: #FFF;
+}
+
+div#pages>a>img {
+	width: 30%;
+	border-radius: 10px;
+}
+
+div#pages>a>img#vk {
+	margin-right: 10%;
+	margin-bottom: 5%;
+	transition: 0.2s linear;
+}
+
+div#pages>a>img#fb {
+	margin-bottom: 5%;
+	transition: 0.2s linear;
+}
+
+div#pages>a>img#tw {
+	margin-right: 10%;
+	transition: 0.2s linear;
+}
+
+div#pages>a>img#dc {
+transition: 0.2s linear;	
+}
+
+div#pages>a>img#vk:hover {
+	opacity: 0.4;
+}
+
+div#pages>a>img#fb:hover {
+	opacity: 0.4;
+}
+
+div#pages>a>img#tw:hover {
+	opacity: 0.4;
+}
+
+div#pages>a>img#dc:hover {
+	opacity: 0.4;
+}
+
+footer {
+	float: left;
+	width: 100%;
+	margin-top: 10%;
+	background-color: #32303f;
+	border-top: 3px solid #000;
+}
+
+footer>div#title {
+	float: left;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-left: 10%;
+	font-family: 'Suez One', serif;
+	font-size: 2vw;
+	color: #FFF;
+}
+
+footer>div#copy {
+	float: right;
+	margin-top: 2.5%;
+	margin-bottom: 2%;
+	margin-right: 50%;
+}
+
+footer>div#copy>a {
+	text-decoration: none;
+	font-family: 'Roboto', serif;
+	font-size: 1.5vw;
+	color: #FFF;
+	transition: 0.2s linear;
+}
+
+footer>div#copy>a:hover {
+	color: #C0C0C0;
+}
