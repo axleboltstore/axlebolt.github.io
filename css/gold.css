@@ -9,7 +9,7 @@
 html, body {
 	width: 100%;
 	background-color: #FFF;
-    background: url('background.jpg') no-repeat center center fixed;
+    background: url('../img/background.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -323,6 +323,26 @@ div#form>div#forms>button:hover {
 ::-moz-placeholder {color:#343434; opacity:1; font-family: 'Roboto', serif;}
 ::-moz-placeholder {color:#343434; opacity:1; font-family: 'Roboto', serif;}
 ::-ms-input-placeholder {color:#343434; opacity:1; font-family: 'Roboto', serif;}
+
+div#video {
+	float: left;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 15%;
+	background-color: #32303f;
+	border: 1px solid #FFF;
+	border-radius: 10px;
+	width: 50%;
+	text-align: center;
+}
+
+div#video>iframe {
+	width: 35vw;
+	height: 20vw;
+	margin: 5%;
+	border: 1px solid #343434;
+	border-radius: 5px;
+}
 
 div#pages {
 	float: left;
