@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='UTF-8'>
+	<title>Axlebolt store - поддержка</title>
+	<link rel='shortcut icon' href='img/icon.png'>
+	<link rel='stylesheet' href='css/support.css'>
+</head>
+<body>
+	<header>
+		<div id='title'>
+			<img src='img/header.jpg'>
+			<span>Axlebolt store.</span>
+			<a href='howtobuy.html' id='link1'>Как купить?</a>
+			<a href='index.html' id='link2'>На главную</a>
+		</div>
+	</header>
+
+	<main>
+		<div id='title'>
+			<span>Поддержка Axlebolt</span>
+		</div>
+
+		<div id='info'>
+			<span>Вы можете: </br></br>&#8226 Рассказать подробно о вашей проблеме при заказе</br>&#8226 Рассказать подробно о багах, которые вы нашли на сайте</br>&#8226 Предложить нам идею для сайта</span>
+		</div>
+
+		<div id='forms'>
+			<span id='thanks'></span></br></br>
+			<textarea id='textarea'></textarea></br>
+			<button onclick='support()'>Отправить</button>
+		</div>
+
+		<div id='warning'>
+			<span>&#9888 Если у вас проблемы с заказом, то не забудьте оставить в письме свой ник, id, а также вашу почту. Если мы убедимся, что заказ и в правду не выполнен, мы отправим на вами указанную script - ссылку. Всю инструкцию вы найдете непосредственно там же.</span>
+		</div>
+	</main>
+
+	<div id='pages'>
+		<span>Соц.Сети</span></br></br>
+		<a href='https://vk.com/standoff2_official'><img src='img/vk.png' id='vk'></a>
+		<a href='https://www.facebook.com/Standoff2Official/'><img src='img/fb.png' id='fb'></a></br>
+		<a href='https://twitter.com/so2_official'><img src='img/tw.png' id='tw'></a>
+		<a href='https://discordapp.com/invite/standoff2'><img src='img/dc.jpg' id='dc'></a>
+	</div>
+
+	<footer>
+		<div id='title'>
+			<span>Axlebolt store.</span>
+		</div>
+
+		<div id='copy'>
+			<a href='https://www.copyright.ru/ru/documents/registraciy_avtorskih_prav/registratsiya_proizvedeniy/'>© Copyright 2019-2020</a>
+		</div>
+	</footer>
+
+	<script>
+		function support() {
+			var text = document.getElementById('textarea').value;
+			document.getElementById('thanks').innerHTML = 'Спасибо за ваше письмо. Мы постараемся решить вашу проблему в течении 24 часов.';
+			document.getElementById('textarea').value = '';
+		}
+	</script>
+</body>
+</html>

@@ -8,6 +8,7 @@
 
 html, body {
 	width: 100%;
+	height: 50%;
 	background-color: #FFF;
     background: url('../img/background.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -118,15 +119,70 @@ main {
 	border-radius: 10px;
 }
 
-main>div#use {
+main>div#title {
 	text-align: center;
-	margin-top: 5%;
+	margin: 5%;
 }
 
-main>div#use>img {
+main>div#title>span {
+	font-family: 'Roboto', serif;
+	font-size: 2.5vw;
+	color: #FFF;
+}
+
+main>div#info {
+	margin-left: 5%;
+}
+
+main>div#info>span {
+	font-family: 'Roboto', serif;
+	font-size: 1.25vw;
+	color: #FFF;
+}
+
+main>div#forms {
+	margin-top: 10%;
+	text-align: center;
+}
+
+main>div#forms>span {
+	font-family: 'Roboto', serif;
+	font-size: 1.25vw;
+	color: #FF9595;
+}
+
+main>div#forms>textarea {
+	resize: none;
 	width: 80%;
-	border: 1px solid #FFF;
-	margin-bottom: 5%;
+	height: 150px;
+	border: 3px solid #3e3e3e;
+	border-radius: 5px;
+	padding: 0.5%;
+	font-size: 1.3vw;
+	font-family: 'Roboto', serif;
+	color: #343434;
+}
+
+main>div#forms>button {
+	border: 3px solid #3e3e3e;
+	border-radius: 5px;
+	padding: 1%;
+	width: 30%;
+	background-color: #FFF;
+	font-family: 'Roboto', serif;
+	font-size: 1.3vw;
+	color: #343434;
+}
+
+main>div#warning {
+	text-align: center;
+	margin: 10%;
+}
+
+main>div#warning>span {
+	font-family: 'Roboto', serif;
+	font-size: 1.25vw;
+	color: #FFF;
 }
 
 div#pages {
@@ -188,7 +244,8 @@ div#pages>a>img#dc:hover {
 }
 
 footer {
-	float: left;
+	position: relative;
+	min-height: 100%;
 	width: 100%;
 	margin-top: 10%;
 	background-color: #32303f;
