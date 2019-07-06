@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Suez+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	width: 100%;
+	background-color: #FFF;
+    background: url('../img/background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+::-webkit-scrollbar-button {
+	background-image: url('');
+	background-repeat: no-repeat;
+	width: 5px;
+	height: 0px
+}
+
+::-webkit-scrollbar-track {
+	background-color: #B1B1B1
+}
+
+::-webkit-scrollbar-thumb {
+	-webkit-border-radius: 0px;
+	background-color: #343434;
+}
+
+::-webkit-scrollbar-thumb:hover{
+	background-color: #242424;
+}
+
+::-webkit-resizer{
+	background-image: url('');
+	background-repeat: no-repeat;
+	width: 4px;
+	height: 0px
+}
+
+::-webkit-scrollbar{
+	width: 6px;
+}
+
+main {
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 10%;
+	background-color: #32303f;
+	border: 1px solid #FFF;
+	border-radius: 10px;
+}
+
+main>div#title {
+	text-align: center;
+	margin: 5%;
+}
+
+main>div#title>span {
+	font-family: 'Roboto', serif;
+	font-size: 1.75vw;
+	color: #FFF;
+}
