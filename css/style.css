@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Suez+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+/*font-family: 'Noto Sans', sans-serif;*/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+/*font-family: 'Noto Sans', sans-serif;*/
+
+/*font-family: 'Roboto Condensed', sans-serif;*/
+
 * {
 	margin: 0;
 	padding: 0;
@@ -8,8 +15,9 @@
 
 html, body {
 	width: 100%;
+	height: 2000px;
 	background-color: #FFF;
-    background: url('../img/background.jpg') no-repeat center center fixed;
+    background: url('../img/bg.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -57,9 +65,11 @@ header>div#title {
 	display: inline-block;
 }
 
-header>div#title>img {
+header>div#title>img#header {
 	width: 100%;
 }
+
+
 
 header>div#title>span {
 	position: absolute;
@@ -68,56 +78,88 @@ header>div#title>span {
 	font-family: 'Suez One', serif;
 	font-size: 2.5vw;
 	color: #FFF!important;
-	text-shadow: 3px 0 3px #000, 0 3px 3px #000, -3px 0 3px #000, 0 -3px 3px #000;
+	text-shadow: 4px 0 4px #000, 0 4px 4px #000, -4px 0 4px #000, 0 -4px 4px #000;
 }
 
 header>div#title>a#link1 {
 	position: absolute;
 	top: 25%;
-	left: 67%;
+	left: 50%;
 	font-family: 'Roboto', serif;
 	font-size: 1.5vw;
 	text-decoration: none;
 	color: #000;
-	background-color: #D9D9D9;
 	padding: 1%;
 	transition: 0.2s linear;
+}
+
+header>div#title>a#link1>img {
+	position: absolute;
+	width: 15%;
+	left: -10%;
+	transition: 0.2s linear;
+}
+
+header>div#title>a#link1:hover {
+	opacity: 0.5;
 }
 
 header>div#title>a#link2 {
 	position: absolute;
 	top: 25%;
-	left: 83%;
+	left: 65%;
 	font-family: 'Roboto', serif;
 	font-size: 1.5vw;
 	text-decoration: none;
 	color: #000;
-	background-color: #D9D9D9;
 	padding: 1%;
 	transition: 0.2s linear;
 }
 
-header>div#title>a#link1:hover {
-	border-radius: 15%;
-	color: #FFF;
-	background-color: rgba(0, 0, 0, 0.4);
+header>div#title>a#link2>img {
+	position: absolute;
+	width: 15%;
+	left: -10%;
+	transition: 0.2s linear;
 }
 
 header>div#title>a#link2:hover {
-	border-radius: 15%;
-	color: #FFF;
-	background-color: rgba(0, 0, 0, 0.4);
+	opacity: 0.5;
+}
+
+header>div#title>a#link3 {
+	position: absolute;
+	top: 25%;
+	left: 82%;
+	font-family: 'Roboto', serif;
+	font-size: 1.5vw;
+	text-decoration: none;
+	color: #000;
+	padding: 1%;
+	transition: 0.2s linear;
+}
+
+header>div#title>a#link3>img {
+	position: absolute;
+	width: 17%;
+	left: -12%;
+	transition: 0.2s linear;
+}
+
+header>div#title>a#link3:hover {
+	opacity: 0.5;
 }
 
 main>div#gold {
+	box-shadow: 1px 1px 10px #DADADA;
 	text-align: center;
-	background-color: #32303f;
+	background-color: #FFFFFF;
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-top: 10%;
 	padding: 2%;
-	border: 1px solid #FFF;
-	border-radius: 10px;
+	border: 1px solid #EBEBEB;
+	border-radius: 5px;
 }
 
 main>div#gold>span {
@@ -126,75 +168,87 @@ main>div#gold>span {
 	color: #FFF;
 }
 
-main>div#gold>img {
-	width: 20%;
+main>div#gold>a>img {
+	width: 25%;
 }
 
-main>div#gold>img#gold100 {
+main>div#gold>a>img#gold3000 {
 	border: 1px solid #FFF;
 	border-bottom: none;
-	margin-right: 2.5%;
+	margin-right: 6%;
+	margin-left: 3%;
+	box-shadow: 1px 1px 10px #B5B5B5;
+	transition: 0.2s linear;
 }
 
-main>div#gold>img#gold500 {
+main>div#gold>a>img#gold3000:hover {
 	border: 1px solid #FFF;
 	border-bottom: none;
-	margin-right: 2.5%;
+	margin-right: 6%;
+	box-shadow: 1px 1px 10px #343434;
 }
 
-main>div#gold>img#price100 {
-	border: 1px solid #FFF;
-	border-top: 1px dashed #FFF;
-	margin-right: 2.5%;
-}
-
-main>div#gold>img#price500 {
-	border: 1px solid #FFF;
-	border-top: 1px dashed #FFF;
-	margin-right: 2.5%;
-}
-
-main>div#gold>img#gold1000 {
+main>div#gold>a>img#gold5000 {
 	border: 1px solid #FFF;
 	border-bottom: none;
+	margin-right: 7%;
+	box-shadow: 1px 1px 10px #B5B5B5;
+	transition: 0.2s linear;
 }
 
-main>div#gold>img#gold3000 {
+main>div#gold>a>img#gold5000:hover {
 	border: 1px solid #FFF;
 	border-bottom: none;
-	margin-left: 2.5%;
+	margin-right: 7%;
+	box-shadow: 1px 1px 10px #343434;
 }
 
-main>div#gold>img#price1000 {
+main>div#gold>a>img#gold10000 {
 	border: 1px solid #FFF;
-	border-top: 1px dashed #FFF;
+	border-bottom: none;
+	margin-right: 5%;
+	box-shadow: 1px 1px 10px #B5B5B5;
+	transition: 0.2s linear;
 }
 
-main>div#gold>img#price3000 {
+main>div#gold>a>img#gold10000:hover {
 	border: 1px solid #FFF;
-	border-top: 1px dashed #FFF;
-	margin-left: 2.5%;
+	border-bottom: none;
+	margin-right: 5%;
+	box-shadow: 1px 1px 10px #343434;
 }
 
 main>div#j {
+	box-shadow: 1px 1px 10px #DADADA;
 	text-align: center;
-	background-color: #32303f;
-	margin-left: 10%;
-	margin-right: 10%;
+	background-color: #FFFFFF;
+	margin-left: 20%;
+	margin-right: 20%;
 	margin-top: 10%;
 	padding: 2%;
-	border: 1px solid #FFF;
+	border: 1px solid #EBEBEB;
 	border-radius: 10px;
 }
 
-main>div#j>span {
-	font-family: 'Suez One', serif;
-	font-size: 2.5vw;
-	color: #FFF;
+main>div#j>a>img {
+	width: 35%;
+	border: 1px solid #FFF;
+	border-bottom: none;
+	margin-right: 7%;
+	margin-left: 3%;
+	box-shadow: 1px 1px 10px #B5B5B5;
+	transition: 0.2s linear;
 }
 
-main>div#j>img {
-	width: 20%;
+main>div#j>a>img:hover {
+	box-shadow: 1px 1px 10px #343434;
+}
+
+main>div#j>span {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #000;
+	font-size: 2vw;
+	font-weight: bold;
 }
 
 main>div#j>img#j_anc {
@@ -244,13 +298,14 @@ main>div#j>img#price3000 {
 }
 
 main>div#m9 {
+	box-shadow: 1px 1px 10px #DADADA;
 	text-align: center;
-	background-color: #32303f;
+	background-color: #FFFFFF;
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-top: 10%;
 	padding: 2%;
-	border: 1px solid #FFF;
+	border: 1px solid #EBEBEB;
 	border-radius: 10px;
 }
 
@@ -469,9 +524,9 @@ div#pages>a>img#dc:hover {
 footer {
 	float: left;
 	width: 100%;
-	margin-top: 10%;
+	margin-top: 1000px;
 	background-color: #32303f;
-	border-top: 3px solid #000;
+	border-top: 3px solid #CCC;
 }
 
 footer>div#title {
