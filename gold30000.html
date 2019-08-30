@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='UTF-8'>
+	<title>Fantasy-shop - купить 30000 голды</title>
+	<link rel='shortcut icon' href='img/logo.png'>
+	<link rel='stylesheet' href='css/gold.css'>
+</head>
+<body>
+	<header>
+		<div id='title'>
+			<img id='header' src='img/header.png'>
+			<a href='garant.html' id='link1'><img id='garant' src='img/garant-icon.png'>Гарантии</a>
+			<a href='howtobuy.html' id='link2'><img id='garant' src='img/heart-icon.png'>Как купить?</a>
+			<a href='https://vk.com/fantazyoutube' id='link3'><img id='garant' src='img/envelope-icon.png'>Контакты</a>
+		</div>
+	</header>
+
+	<main>
+		<div id='product'>
+			<img src='img/gc30000.jpg'>
+		</div>
+		<div id='about'>
+			<span>GOLD [30000]</span></br></br></br>
+
+			<div id='icon'>
+				<div id='order'>
+					<img src='img/done.png'><span>Готовы принять ваш заказ</span>
+				</div>
+
+				<div id='warranty'>
+					<img src='img/warranty.png'><span>Гарантия 100%</span>
+				</div>
+
+				<div id='support'>
+					<img src='img/support.png'><span>Поддержка 24/7</span>
+				</div>								
+			</div>
+
+			<span id='paymants'>Способы оплаты</span>	
+
+			<div id='pay'>
+				<img src='img/qiwi.png'>
+				<img src='img/visa.png'>
+				<img src='img/mastercard.png'>
+				<img src='img/mir.png'></br>
+				<img src='img/webmoney.png'>
+				<img src='img/alpha.png'>
+				<img src='img/apple.png'>
+				<img src='img/mts.png'></br>
+				<img src='img/bilain.png'>
+				<img src='img/megafon.png'>
+				<img src='img/tele2.png'>
+				<img src='img/unknown.png'>
+			</div>	
+		</div>
+	</main>
+
+	<div id='form'>
+		<div id='title'>
+			<span>Заполнение формы</span>
+		</div>
+
+		<div id='forms'>
+			<input type='text' placeholder='Почта' id='mail'><span>Mail / Gmail / Yandex</span></br>
+			<input type='text' placeholder='Ник' id='name'><span>Ваше имя в игре</span></br>
+			<input type='text' placeholder='ID' id='id'><span>Ваш ID в игре</span></br>
+
+			<button onclick='check()'>Купить</button>
+		</div>
+	</div>
+
+	<footer>
+		<div id='title'>
+			<span>FANTASY-SHOP</span>
+		</div>
+
+		<div id='copy'>
+			<a href='https://www.copyright.ru/ru/documents/registraciy_avtorskih_prav/registratsiya_proizvedeniy/'>© Copyright 2019-2020</a>
+		</div>
+	</footer>
+
+	<script>
+		function check() {
+			var mail = document.getElementById('mail');
+			var name = document.getElementById('name');
+			var id = document.getElementById('id');
+
+			if (mail.value != '' && name.value != '' && id.value != '') {
+				window.open('https://qiwi.me/action/checkout/5c3052e6-cf04-40d1-bffe-f0787b4abbb8?sum=999&currency_id=643&source=qw');
+				mail.style.backgroundColor = '#FF8C00';
+				name.style.backgroundColor = '#FF8C00';
+				id.style.backgroundColor = '#FF8C00';
+			}
+
+			else {
+				mail.style.backgroundColor = '#FF0000';
+				name.style.backgroundColor = '#FF0000';
+				id.style.backgroundColor = '#FF0000';
+			}
+		}
+	</script>
+</body>
+</html>
