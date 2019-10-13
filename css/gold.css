@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Suez+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
-/*font-family: 'Roboto Condensed', sans-serif;*/
 
 * {
 	margin: 0;
@@ -10,9 +8,8 @@
 
 html, body {
 	width: 100%;
-	height: 2000px;
 	background-color: #FFF;
-    background: url('../img/bg.png') no-repeat center center fixed;
+    background: url('../img/background.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -60,11 +57,9 @@ header>div#title {
 	display: inline-block;
 }
 
-header>div#title>img#header {
+header>div#title>img {
 	width: 100%;
 }
-
-
 
 header>div#title>span {
 	position: absolute;
@@ -73,87 +68,55 @@ header>div#title>span {
 	font-family: 'Suez One', serif;
 	font-size: 2.5vw;
 	color: #FFF!important;
-	text-shadow: 4px 0 4px #000, 0 4px 4px #000, -4px 0 4px #000, 0 -4px 4px #000;
+	text-shadow: 3px 0 3px #000, 0 3px 3px #000, -3px 0 3px #000, 0 -3px 3px #000;
 }
 
 header>div#title>a#link1 {
 	position: absolute;
 	top: 25%;
-	left: 50%;
+	left: 67%;
 	font-family: 'Roboto', serif;
 	font-size: 1.5vw;
 	text-decoration: none;
 	color: #000;
+	background-color: #D9D9D9;
 	padding: 1%;
 	transition: 0.2s linear;
-}
-
-header>div#title>a#link1>img {
-	position: absolute;
-	width: 15%;
-	left: -10%;
-	transition: 0.2s linear;
-}
-
-header>div#title>a#link1:hover {
-	opacity: 0.5;
 }
 
 header>div#title>a#link2 {
 	position: absolute;
 	top: 25%;
-	left: 65%;
+	left: 83%;
 	font-family: 'Roboto', serif;
 	font-size: 1.5vw;
 	text-decoration: none;
 	color: #000;
+	background-color: #D9D9D9;
 	padding: 1%;
 	transition: 0.2s linear;
 }
 
-header>div#title>a#link2>img {
-	position: absolute;
-	width: 15%;
-	left: -10%;
-	transition: 0.2s linear;
+header>div#title>a#link1:hover {
+	border-radius: 15%;
+	color: #FFF;
+	background-color: rgba(0, 0, 0, 0.4);
 }
 
 header>div#title>a#link2:hover {
-	opacity: 0.5;
-}
-
-header>div#title>a#link3 {
-	position: absolute;
-	top: 25%;
-	left: 82%;
-	font-family: 'Roboto', serif;
-	font-size: 1.5vw;
-	text-decoration: none;
-	color: #000;
-	padding: 1%;
-	transition: 0.2s linear;
-}
-
-header>div#title>a#link3>img {
-	position: absolute;
-	width: 17%;
-	left: -12%;
-	transition: 0.2s linear;
-}
-
-header>div#title>a#link3:hover {
-	opacity: 0.5;
+	border-radius: 15%;
+	color: #FFF;
+	background-color: rgba(0, 0, 0, 0.4);
 }
 
 main {
-	box-shadow: 1px 1px 10px #DADADA;
-	background-color: #FFFFFF;
-	border: 1px solid #EBEBEB;
-	border-radius: 5px;
 	float: left;
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-top: 10%;
+	background-color: #32303f;
+	border: 1px solid #FFF;
+	border-radius: 10px;
 	width: 80%;
 }
 
@@ -165,7 +128,7 @@ main>div#product {
 
 main>div#product>img {
 	width: 80%;
-	border: 1px solid #CCC;
+	border: 1px solid #FFF;
 }
 
 main>div#about {
@@ -175,9 +138,9 @@ main>div#about {
 }
 
 main>div#about>span {
-	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Suez One', serif;
 	font-size: 2.5vw;
-	color: #000;
+	color: #edd096;
 }
 
 main>div#about>div#icon {
@@ -193,7 +156,7 @@ main>div#about>div#icon>div#order {
 main>div#about>div#icon>div#order>img {
 	float: left;
 	width: 7%;
-	border: 2px solid #ccc;
+	border: 2px solid #FFF;
 	border-radius: 50%;
 }
 
@@ -203,7 +166,7 @@ main>div#about>div#icon>div#order>span {
 	float: left;
 	font-family: 'Roboto', serif;
 	font-size: 1.7vw;
-	color: #000;
+	color: #FFF;
 	margin-left: 15%;
 }
 
@@ -216,7 +179,7 @@ main>div#about>div#icon>div#warranty {
 main>div#about>div#icon>div#warranty>img {
 	float: left;
 	width: 7%;
-	border: 2px solid #ccc;
+	border: 2px solid #FFF;
 	border-radius: 50%;
 }
 
@@ -226,7 +189,7 @@ main>div#about>div#icon>div#warranty>span {
 	float: left;
 	font-family: 'Roboto', serif;
 	font-size: 1.7vw;
-	color: #000;
+	color: #FFF;
 	margin-left: 15%;
 }
 
@@ -239,7 +202,7 @@ main>div#about>div#icon>div#support {
 main>div#about>div#icon>div#support>img {
 	float: left;
 	width: 7%;
-	border: 2px solid #ccc;
+	border: 2px solid #FFF;
 	border-radius: 50%;
 }
 
@@ -249,14 +212,14 @@ main>div#about>div#icon>div#support>span {
 	float: left;
 	font-family: 'Roboto', serif;
 	font-size: 1.7vw;
-	color: #000;
+	color: #FFF;
 	margin-left: 15%;
 }
 
 main>div#about>span#paymants {
 	font-family: 'Roboto', serif;
 	font-size: 2.5vw;
-	color: #000;
+	color: #FFF;
 }
 
 main>div#about>div#pay {
@@ -269,14 +232,13 @@ main>div#about>div#pay>img {
 }
 
 div#form {
-	box-shadow: 1px 1px 10px #DADADA;
-	background-color: #FFFFFF;
-	border: 1px solid #EBEBEB;
-	border-radius: 5px;
 	float: left;
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-top: 10%;
+	background-color: #32303f;
+	border: 1px solid #FFF;
+	border-radius: 10px;
 	width: 80%;
 }
 
@@ -288,7 +250,7 @@ div#form>div#title {
 div#form>div#title>span {
 	font-family: 'Roboto', serif;
 	font-size: 2.5vw;
-	color: #000;
+	color: #FFF;
 }
 
 div#form>div#forms {
@@ -296,16 +258,14 @@ div#form>div#forms {
 }
 
 div#form>div#forms>input {
-	box-shadow: 1px 1px 10px #DADADA;
-	background-color: #F3F3F3;
-	border: 1px solid #EBEBEB;
-	border-radius: 5px;
 	width: 40%;
 	padding: 1%;
+	background-color: #FF8C00;
 	color: #343434;
 	margin-bottom: 5%;
 	font-size: 1.5vw;
 	font-family: 'Roboto', serif;
+	border: 1px solid #FF8C00;
 }
 
 div#form>div#forms>input:focus {
@@ -323,7 +283,7 @@ div#form>div#forms>span {
 	margin-left: 5%;
 	font-family: 'Roboto', serif;
 	font-size: 1.5vw;
-	color: #000;
+	color: #FFF;
 }
 
 div#form>div#forms>button {
@@ -332,9 +292,9 @@ div#form>div#forms>button {
 	padding-left: 4%;
 	font-family: 'Roboto', serif;
 	font-size: 1.5vw;
-	background-color: #757575;
+	background-color: #FF8C00;
 	color: #FFF;
-	border: 1px solid #757575;
+	border: 1px solid #FF8C00;
 	background-image: url("../img/shopcurtH.png");
 	background-repeat : no-repeat;
 	background-size: 30%;
@@ -349,9 +309,9 @@ div#form>div#forms>button:hover {
 	padding-left: 4%;
 	font-family: 'Roboto', serif;
 	font-size: 1.5vw;
-	background-color: #DADADA;
+	background-color: #FFF;
 	color: #FF8C00;
-	border: 1px solid #DADADA;
+	border: 1px solid #FFF;
 	background-image: url("../img/shopcurt.png");
 	background-repeat : no-repeat;
 	background-size: 30%;
@@ -444,11 +404,11 @@ div#pages>a>img#dc:hover {
 }
 
 footer {
-	margin-top: 1000px;
 	float: left;
 	width: 100%;
+	margin-top: 10%;
 	background-color: #32303f;
-	border-top: 3px solid #CCC;
+	border-top: 3px solid #000;
 }
 
 footer>div#title {

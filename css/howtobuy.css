@@ -51,14 +51,71 @@ header {
 	width: 100%;
 }
 
+header>div#title {
+	width: 100%;
+	position: relative;
+	display: inline-block;
+}
+
+header>div#title>img {
+	width: 100%;
+}
+
+header>div#title>span {
+	position: absolute;
+	top: 25%;
+	left: 5%;
+	font-family: 'Suez One', serif;
+	font-size: 2.5vw;
+	color: #FFF!important;
+	text-shadow: 3px 0 3px #000, 0 3px 3px #000, -3px 0 3px #000, 0 -3px 3px #000;
+}
+
+header>div#title>a#link1 {
+	position: absolute;
+	top: 25%;
+	left: 67%;
+	font-family: 'Roboto', serif;
+	font-size: 1.5vw;
+	text-decoration: none;
+	color: #000;
+	background-color: #D9D9D9;
+	padding: 1%;
+	transition: 0.2s linear;
+}
+
+header>div#title>a#link2 {
+	position: absolute;
+	top: 25%;
+	left: 83%;
+	font-family: 'Roboto', serif;
+	font-size: 1.5vw;
+	text-decoration: none;
+	color: #000;
+	background-color: #D9D9D9;
+	padding: 1%;
+	transition: 0.2s linear;
+}
+
+header>div#title>a#link1:hover {
+	border-radius: 15%;
+	color: #FFF;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+header>div#title>a#link2:hover {
+	border-radius: 15%;
+	color: #FFF;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
 main {
-	box-shadow: 1px 1px 10px #DADADA;
-	background-color: #FFFFFF;
-	border: 1px solid #EBEBEB;
-	border-radius: 5px;
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-top: 10%;
+	background-color: #32303f;
+	border: 1px solid #FFF;
+	border-radius: 10px;
 }
 
 main>div#use {
@@ -128,14 +185,6 @@ div#pages>a>img#tw:hover {
 
 div#pages>a>img#dc:hover {
 	opacity: 0.4;
-}
-
-fg {
-	text-align: center;
-}
-
-fg>div#use {
-	margin-top: 10%;
 }
 
 footer {
