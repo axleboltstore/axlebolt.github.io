@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='UTF-8'>
+	<meta name="interkassa-verification" content="cda55b1ce556578b98439fba070f58d0" />
+	<title>Axlebolt store - купить butterfly dragon glass по акции</title>
+	<link rel='shortcut icon' href='img/icon.png'>
+	<link rel='stylesheet' href='css/gold.css'>
+</head>
+<body>
+	<header>
+		<div id='title'>
+			<img src='img/header.jpg'>
+			<span>Axlebolt store.</span>
+			<a href='index.html' id='link1'>На главную</a>
+			<a href='support.html' id='link2'>Поддержка</a>
+		</div>
+	</header>
+
+	<main>
+		<div id='product'>
+			<img src='img/bdgh.png'>
+		</div>
+		<div id='about'>
+			<span>BUTTERFLY [DRAGON GLASS]</span></br></br></br>
+
+			<div id='icon'>
+				<div id='order'>
+					<img src='img/done.png'><span>Готовы принять ваш заказ</span>
+				</div>
+
+				<div id='warranty'>
+					<img src='img/warranty.png'><span>Гарантия 100%</span>
+				</div>
+
+				<div id='support'>
+					<img src='img/support.png'><span>Поддержка 24/7</span>
+				</div>								
+			</div>
+
+			<span id='paymants'>Способы оплаты</span>	
+
+			<div id='pay'>
+				<img src='img/qiwi.png'>
+				<img src='img/visa.png'>
+				<img src='img/mastercard.png'>
+				<img src='img/mir.png'></br>
+				<img src='img/webmoney.png'>
+				<img src='img/alpha.png'>
+				<img src='img/apple.png'>
+				<img src='img/mts.png'></br>
+				<img src='img/bilain.png'>
+				<img src='img/megafon.png'>
+				<img src='img/tele2.png'>
+				<img src='img/unknown.png'>
+			</div>	
+		</div>
+	</main>
+
+	<div id='form'>
+		<div id='title'>
+			<span>Заполнение формы</span>
+		</div>
+
+		<div id='forms'>
+			<input type='text' placeholder='Почта' id='mail'><span>Любая почта</span></br>
+			<input type='text' placeholder='Ник' id='name'><span>Ваше имя в игре</span></br>
+			<input type='text' placeholder='ID' id='id'><span>Ваш ID в игре</span></br>
+
+			<button onclick='check()'>Купить</button>
+		</div>
+	</div>
+
+	<div id='video'>
+		<iframe src="https://www.youtube.com/embed/EWIak0e9ujI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+
+	<div id='pages'>
+		<span>Соц.Сети</span></br></br>
+		<a href='https://vk.com/standoff2_official'><img src='img/vk.png' id='vk'></a>
+		<a href='https://www.facebook.com/Standoff2Official/'><img src='img/fb.png' id='fb'></a></br>
+		<a href='https://twitter.com/so2_official'><img src='img/tw.png' id='tw'></a>
+		<a href='https://discordapp.com/invite/standoff2'><img src='img/dc.jpg' id='dc'></a>
+	</div>
+
+	<footer>
+		<div id='title'>
+			<span>Axlebolt store.</span>
+		</div>
+
+		<div id='copy'>
+			<a href='https://www.copyright.ru/ru/documents/registraciy_avtorskih_prav/registratsiya_proizvedeniy/'>© Copyright 2019-2020</a>
+		</div>
+	</footer>
+
+	<script>
+		function check() {
+			var mail = document.getElementById('mail');
+			var name = document.getElementById('name');
+			var id = document.getElementById('id');
+			if (mail.value != '') {
+				window.open('https://qiwi.me/action/checkout/ba4e5b26-c197-4e70-8c0f-a6e875edf679?sum=120&currency_id=643&source=qw');
+			}
+		}
+	</script>
+</body>
+</html>
