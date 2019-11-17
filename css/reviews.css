@@ -130,25 +130,8 @@ main {
 	margin-top: 10%;
 }
 
-main>div#pres {
-	width: 80%;
-	margin-left: 5%;
-	box-shadow: 1px 1px 10px #000;
-	text-align: center;
-	background-color: #161616;
-	border: 1px solid #161616;
-	border-radius: 5px;
-	margin-bottom: 10%;
-	padding: 5%;
-}
-
-main>div#pres>span {
-	color: #FFF;
-	font-family: 'Roboto', serif;
-	font-size: 2vw;
-}
-
 main>div#gold {
+	float: left;
 	width: 80%;
 	margin-left: 10%;
 	box-shadow: 1px 1px 10px #000;
@@ -158,13 +141,59 @@ main>div#gold {
 	border-radius: 5px;
 }
 
-main>div#gold>img {
-	width: 25%;
-	margin: 2%;
-	border-radius: 2%;
+main>div#gold>div#img>img {
+	float: left;
+	margin-left: 10%;
+	width: 10%;
+	margin-top: 5%;
+	border-radius: 50%;
 	box-shadow: 1px 1px 10px #000;
-	transition: 0.2s linear;
 }
+
+main>div#gold>div#img>textarea {
+	resize: none;
+	float: right;
+	width: 40%;
+	margin-right: 30%;
+	margin-top: -10%;
+	height: 100px;
+	padding: 1%;
+	background-color: #161616;
+	color: #343434;
+	margin-bottom: 5%;
+	font-size: 1.5vw;
+	font-family: 'Roboto', serif;
+	border: 1px solid #161616;
+	box-shadow: 1px 1px 10px #000;
+	margin-left: 50%;
+}
+
+main>div#gold>div#img>textarea:focus {
+	background-color: #FFF;
+	color: #343434;
+	border: 1px solid #FFF;
+}
+
+main>div#gold>div#img>button {
+	float: right;
+	margin-right: 41%;
+	width: 20%;
+	padding: 1.5%;
+	font-family: 'Roboto', serif;
+	font-size: 1.5vw;
+	background-color: #161616;
+	border: 1px solid #161616;
+	box-shadow: 1px 1px 10px #000;
+	color: #FFF;
+	margin-left: 10%;
+	transition: 0.2s linear;
+	margin-bottom: 5%;
+}
+
+main>div#gold>div#img>button:hover {
+	box-shadow: 1px 1px 20px #000;
+}
+
 
 main>div#gold>span {
 	color: #FFF;
@@ -176,152 +205,112 @@ main>div#gold>img:hover {
 	box-shadow: 1px 1px 20px #000;
 }
 
-main>div#jk {
-	margin-top: 5%;
+main>div#reviews {
+	float: left;
 	width: 80%;
 	margin-left: 10%;
+	margin-top: 10%;
 	box-shadow: 1px 1px 10px #000;
-	text-align: center;
 	background-color: #161616;
 	border: 1px solid #161616;
 	border-radius: 5px;
 }
 
-main>div#jk>img {
-	width: 20%;
-	margin: 2%;
-	border-radius: 2%;
-	box-shadow: 1px 1px 10px #000;
-	transition: 0.2s linear;
-}
-
-main>div#jk>span {
+main>div#reviews>span {
+	margin-left: 32.5%;
 	color: #FFF;
 	font-family: 'Roboto', serif;
 	font-size: 2vw;
 }
 
-main>div#jk>img:hover {
-	box-shadow: 1px 1px 20px #000;
+main>div#reviews>div#img>img {
+	float: left;
+	margin-left: 10%;
+	width: 10%;
+	margin-top: 5%;
+	border-radius: 50%;
+	box-shadow: 1px 1px 10px #000;
 }
 
-main>div#m9 {
-	margin-top: 5%;
+main>div#reviews>div#img>span#name {
+	float: right;
+	width: 40%;
+	margin-right: 35%;
+	margin-top: -10%;
+	color: #FFF;
+	margin-bottom: 5%;
+	font-size: 2vw;
+	font-family: 'Roboto', serif;
+	margin-left: 50%;
+}
+
+main>div#reviews>div#img>span#text {
+	float: right;
+	width: 40%;
+	margin-right: 35%;
+	margin-top: -5%;
+	color: #FFF;
+	margin-bottom: 5%;
+	font-size: 1.5vw;
+	font-family: 'Roboto', serif;
+	margin-left: 50%;
+	color: #CBCBCB;
+}
+
+main>div#reviews2 {
+	float: left;
 	width: 80%;
 	margin-left: 10%;
+	margin-top: 5%;
 	box-shadow: 1px 1px 10px #000;
-	text-align: center;
 	background-color: #161616;
 	border: 1px solid #161616;
 	border-radius: 5px;
 }
 
-main>div#m9>img {
-	width: 20%;
-	margin: 2%;
-	border-radius: 2%;
-	box-shadow: 1px 1px 10px #000;
-	transition: 0.2s linear;
-}
-
-main>div#m9>span {
+main>div#reviews2>span {
+	margin-left: 32.5%;
 	color: #FFF;
 	font-family: 'Roboto', serif;
 	font-size: 2vw;
 }
 
-main>div#m9>img:hover {
-	box-shadow: 1px 1px 20px #000;
-}
-
-main>div#b {
-	margin-top: 5%;
-	width: 80%;
+main>div#reviews2>div#img>img {
+	float: left;
 	margin-left: 10%;
+	width: 10%;
+	margin-top: 2%;
+	border-radius: 50%;
 	box-shadow: 1px 1px 10px #000;
-	text-align: center;
-	background-color: #161616;
-	border: 1px solid #161616;
-	border-radius: 5px;
 }
 
-main>div#b>img {
-	width: 20%;
-	margin: 2%;
-	border-radius: 2%;
-	box-shadow: 1px 1px 10px #000;
-	transition: 0.2s linear;
-}
-
-main>div#b>span {
+main>div#reviews2>div#img>span#name {
+	float: right;
+	width: 40%;
+	margin-right: 35%;
+	margin-top: -10%;
 	color: #FFF;
-	font-family: 'Roboto', serif;
+	margin-bottom: 5%;
 	font-size: 2vw;
+	font-family: 'Roboto', serif;
+	margin-left: 50%;
 }
 
-main>div#b>img:hover {
-	box-shadow: 1px 1px 20px #000;
-}
-
-main>div#k {
-	margin-top: 5%;
-	width: 80%;
-	margin-left: 10%;
-	box-shadow: 1px 1px 10px #000;
-	text-align: center;
-	background-color: #161616;
-	border: 1px solid #161616;
-	border-radius: 5px;
-}
-
-main>div#k>img {
-	width: 25%;
-	margin: 2%;
-	border-radius: 2%;
-	box-shadow: 1px 1px 10px #000;
-	transition: 0.2s linear;
-}
-
-main>div#k>span {
+main>div#reviews2>div#img>span#text {
+	float: right;
+	width: 40%;
+	margin-right: 35%;
+	margin-top: -5%;
 	color: #FFF;
+	margin-bottom: 5%;
+	font-size: 1.5vw;
 	font-family: 'Roboto', serif;
-	font-size: 2vw;
-}
-
-main>div#k>img:hover {
-	box-shadow: 1px 1px 20px #000;
-}
-
-main>div#c {
-	width: 80%;
-	margin-left: 10%;
-	box-shadow: 1px 1px 10px #000;
-	text-align: center;
-	background-color: #161616;
-	border: 1px solid #161616;
-	border-radius: 5px;
-	margin-top: 5%;
-}
-
-main>div#c>img {
-	width: 25%;
-	margin: 2%;
-	border-radius: 2%;
-	box-shadow: 1px 1px 10px #000;
-	transition: 0.2s linear;
-}
-
-main>div#c>span {
-	color: #FFF;
-	font-family: 'Roboto', serif;
-	font-size: 2vw;
-}
-
-main>div#c>img:hover {
-	box-shadow: 1px 1px 20px #000;
+	margin-left: 50%;
+	color: #CBCBCB;
 }
 
 footer {
+	float: left;
 	width: 100%;
 	margin-top: 5%;
 }
