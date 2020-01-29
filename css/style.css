@@ -20,16 +20,16 @@ body, html {
 }
 
 ::-webkit-scrollbar-track {
-	background-color: #242424
+	background-color: #B1B1B1
 }
 
 ::-webkit-scrollbar-thumb {
 	-webkit-border-radius: 0px;
-	background-color: #FF0000;
+	background-color: #343434;
 }
 
 ::-webkit-scrollbar-thumb:hover{
-	background-color: #BE0101;
+	background-color: #242424;
 }
 
 ::-webkit-resizer{
@@ -59,51 +59,48 @@ header>div#title>img {
 }
 
 header>div#title>a#link1 {
-	text-shadow: 0 0 1em #FF0000;
 	position: absolute;
 	top: 45%;
 	left: 67%;
 	font-family: 'Roboto', serif;
 	font-size: 1.75vw;
 	text-decoration: none;
-	color: #FF0000;
+	color: #FFF;
 	transition: 0.2s linear;
 }
 
 header>div#title>a#link2 {
-	text-shadow: 0 0 1em #FF0000;
 	position: absolute;
 	top: 45%;
 	left: 83%;
 	font-family: 'Roboto', serif;
 	font-size: 1.75vw;
 	text-decoration: none;
-	color: #FF0000;
+	color: #FFF;
 	transition: 0.2s linear;
 }
 
 header>div#title>a#link3 {
-	text-shadow: 0 0 1em #FF0000;
 	position: absolute;
 	top: 45%;
 	left: 15%;
 	font-family: 'Roboto', serif;
 	font-size: 1.75vw;
 	text-decoration: none;
-	color: #FF0000;
+	color: #FFF;
 	transition: 0.2s linear;
 }
 
 header>div#title>a#link1:hover {
-	color: #FD4545;
+	color: #9F9F9F;
 }
 
 header>div#title>a#link2:hover {
-	color: #FD4545;
+	color: #9F9F9F;
 }
 
 header>div#title>a#link3:hover {
-	color: #FD4545;
+	color: #9F9F9F;
 }
 
 menu {
@@ -134,7 +131,7 @@ main {
 }
 
 main>div#pres {
-	width: 90%;
+	width: 80%;
 	margin-left: 5%;
 	box-shadow: 1px 1px 10px #000;
 	text-align: center;
@@ -142,15 +139,16 @@ main>div#pres {
 	border: 1px solid #161616;
 	border-radius: 5px;
 	margin-bottom: 10%;
+	padding: 5%;
 }
 
-main>div#pres>img {
-	width: 100%;
+main>div#pres>span {
+	color: #FFF;
+	font-family: 'Roboto', serif;
+	font-size: 2vw;
 }
 
 main>div#gold {
-	margin-top: 5%;
-	background-image: url(bg.png);
 	width: 80%;
 	margin-left: 10%;
 	box-shadow: 1px 1px 10px #000;
@@ -179,7 +177,6 @@ main>div#gold>img:hover {
 }
 
 main>div#jk {
-	background-image: url(bg.png);
 	margin-top: 5%;
 	width: 80%;
 	margin-left: 10%;
@@ -209,7 +206,6 @@ main>div#jk>img:hover {
 }
 
 main>div#m9 {
-	background-image: url(bg.png);
 	margin-top: 5%;
 	width: 80%;
 	margin-left: 10%;
@@ -239,7 +235,6 @@ main>div#m9>img:hover {
 }
 
 main>div#b {
-	background-image: url(bg.png);
 	margin-top: 5%;
 	width: 80%;
 	margin-left: 10%;
@@ -269,7 +264,6 @@ main>div#b>img:hover {
 }
 
 main>div#k {
-	background-image: url(bg.png);
 	margin-top: 5%;
 	width: 80%;
 	margin-left: 10%;
@@ -299,7 +293,6 @@ main>div#k>img:hover {
 }
 
 main>div#c {
-	background-image: url(bg.png);
 	width: 80%;
 	margin-left: 10%;
 	box-shadow: 1px 1px 10px #000;

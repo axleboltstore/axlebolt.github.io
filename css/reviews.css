@@ -59,52 +59,50 @@ header>div#title>img {
 }
 
 header>div#title>a#link1 {
-	text-shadow: 0 0 1em #FF0000;
 	position: absolute;
 	top: 45%;
 	left: 67%;
 	font-family: 'Roboto', serif;
 	font-size: 1.75vw;
 	text-decoration: none;
-	color: #FF0000;
+	color: #FFF;
 	transition: 0.2s linear;
 }
 
 header>div#title>a#link2 {
-	text-shadow: 0 0 1em #FF0000;
 	position: absolute;
 	top: 45%;
 	left: 83%;
 	font-family: 'Roboto', serif;
 	font-size: 1.75vw;
 	text-decoration: none;
-	color: #FF0000;
+	color: #FFF;
 	transition: 0.2s linear;
 }
 
 header>div#title>a#link3 {
-	text-shadow: 0 0 1em #FF0000;
 	position: absolute;
 	top: 45%;
 	left: 15%;
 	font-family: 'Roboto', serif;
 	font-size: 1.75vw;
 	text-decoration: none;
-	color: #FF0000;
+	color: #FFF;
 	transition: 0.2s linear;
 }
 
 header>div#title>a#link1:hover {
-	color: #FD4545;
+	color: #9F9F9F;
 }
 
 header>div#title>a#link2:hover {
-	color: #FD4545;
+	color: #9F9F9F;
 }
 
 header>div#title>a#link3:hover {
-	color: #FD4545;
+	color: #9F9F9F;
 }
+
 menu {
 	width: 100;
 	margin-top: 1.5%;
@@ -133,7 +131,6 @@ main {
 }
 
 main>div#gold {
-	background-image: url(bg.png);
 	float: left;
 	width: 80%;
 	margin-left: 10%;
@@ -209,7 +206,6 @@ main>div#gold>img:hover {
 }
 
 main>div#reviews {
-	background-image: url(bg.png);
 	float: left;
 	width: 80%;
 	margin-left: 10%;
@@ -262,7 +258,6 @@ main>div#reviews>div#img>span#text {
 }
 
 main>div#reviews2 {
-	background-image: url(bg.png);
 	float: left;
 	width: 80%;
 	margin-left: 10%;

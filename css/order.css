@@ -58,51 +58,48 @@ header>div#title>img {
 }
 
 header>div#title>a#link1 {
-	text-shadow: 0 0 1em #FF0000;
 	position: absolute;
 	top: 45%;
 	left: 67%;
 	font-family: 'Roboto', serif;
 	font-size: 1.75vw;
 	text-decoration: none;
-	color: #FF0000;
+	color: #FFF;
 	transition: 0.2s linear;
 }
 
 header>div#title>a#link2 {
-	text-shadow: 0 0 1em #FF0000;
 	position: absolute;
 	top: 45%;
 	left: 83%;
 	font-family: 'Roboto', serif;
 	font-size: 1.75vw;
 	text-decoration: none;
-	color: #FF0000;
+	color: #FFF;
 	transition: 0.2s linear;
 }
 
 header>div#title>a#link3 {
-	text-shadow: 0 0 1em #FF0000;
 	position: absolute;
 	top: 45%;
 	left: 15%;
 	font-family: 'Roboto', serif;
 	font-size: 1.75vw;
 	text-decoration: none;
-	color: #FF0000;
+	color: #FFF;
 	transition: 0.2s linear;
 }
 
 header>div#title>a#link1:hover {
-	color: #FD4545;
+	color: #9F9F9F;
 }
 
 header>div#title>a#link2:hover {
-	color: #FD4545;
+	color: #9F9F9F;
 }
 
 header>div#title>a#link3:hover {
-	color: #FD4545;
+	color: #9F9F9F;
 }
 
 menu {
@@ -133,7 +130,6 @@ main {
 }
 
 main>div#main {
-	background-image: url(bg.png);
 	float: left;
 	margin-left: 10%;
 	margin-right: 10%;
@@ -258,7 +254,6 @@ main>div#main>div#about>div#pay>img {
 }
 
 main>div#form {
-	background-image: url(bg.png);
 	float: left;
 	margin-left: 10%;
 	margin-right: 10%;
